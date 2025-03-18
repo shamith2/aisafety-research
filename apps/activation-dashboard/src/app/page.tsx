@@ -96,7 +96,7 @@ const TokenAnalysis: React.FC<TokenAnalysisProps> = ({ token, isSteered }) => {
 
             <div>
                 <h3 className="text-lg font-semibold mb-2">
-                    Next Token Probabilities
+                    Top-5 Token Probabilities
                 </h3>
                 <div className="max-h-64 overflow-y-auto">
                     <table className="w-full">
